@@ -37,6 +37,7 @@
 
         #options {
             display: flex;
+            font-size: 0.5em;
             justify-content: space-around;
             margin: 20px 0;
         }
@@ -107,7 +108,7 @@
         input, button {
             font-size: 1em;
             margin: 5px; /* 输入框和按钮间的距离 */
-            width: 20%;
+            width: 15%;
         }
     </style>
 </head>
@@ -116,7 +117,7 @@
     <div id="currentTitle">100以内的加减运算</div>
     <div class="container">
         <input id = "input1" type="text" placeholder="题目数量">
-        <input id = "input2" type="text" placeholder="xxx以内运算">
+        <input id = "input2" type="text" placeholder="xx以内运算">
         <button id='setting' type="submit">设置</button>
     </div>
     <div id="currentQuestion">剩余题目: 1 / 10</div>
@@ -283,11 +284,11 @@
             if (isCorrect) {
                 playAudio();
                 // 图片路径和显示时间（毫秒）
-                popupImage('./resource/correct.png', 1000);
+                popupImage('./resource/correct.png', 2000);
                 correctCount++;
             } else {
                 playErrorAudio();
-                popupImage('./resource/error.png', 1000);
+                popupImage('./resource/error.png', 2000);
             }
 
             if (currentCount > `${quesNums}`) {
