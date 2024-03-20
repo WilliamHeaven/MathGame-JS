@@ -4,6 +4,8 @@
 
 ## 游戏特点
 
+- 设置题目数量
+- 设置运算位数
 - 随机生成的加法题目。
 - 倒计时限制。
 - 答题正确率和平均时间统计。
@@ -13,8 +15,7 @@
 
 立即在线体验数学游戏，提升你的数学技能。
 
-- [在线体验 Live Experience](http://mathgame.gitscaffold.com/)
-- [中文体验 Chinese Version](http://mathgame.gitscaffold.com/indexcn.html)
+- [在线体验 ]()
 
 ## 如何开始游戏
 
